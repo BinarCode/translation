@@ -103,6 +103,7 @@ class FileLoaderCommand extends Command
      */
     public function loadDirectory($path, $locale, $namespace = '*', $group = '')
     {
+        // Test change something
         // Load all files inside subdirectories:
         $directories = $this->files->directories($path);
         foreach ($directories as $directory) {
